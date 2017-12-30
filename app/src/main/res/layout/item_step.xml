@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/marginLarge"
+    android:layout_marginEnd="@dimen/marginSmall"
+    android:layout_marginStart="@dimen/marginSmall"
+    android:background="@color/gray"
+    android:orientation="horizontal"
+    android:padding="@dimen/marginMedium">
+
+    <ImageView
+        android:src="@drawable/food_place_holder"
+        android:contentDescription="@string/imgStep"
+        android:id="@+id/imgStep"
+        android:layout_marginEnd="@dimen/marginMedium"
+        android:layout_width="@dimen/imgStepDimens"
+        android:layout_height="@dimen/imgStepDimens" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/txtStepShortDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

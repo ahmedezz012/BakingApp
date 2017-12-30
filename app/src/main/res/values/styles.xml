@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="textViewLarge">
+        <item name="android:textSize">@dimen/fontLarge</item>
+    </style>
+
+    <style name="blackLargeTextView" parent="textViewLarge">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="textViewMedium">
+        <item name="android:textSize">@dimen/fontMedium</item>
+    </style>
+
+    <style name="blackMediumTextView" parent="textViewMedium">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>

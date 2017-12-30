@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/marginSmall"
+    android:layout_marginStart="@dimen/marginSmall"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    android:padding="@dimen/marginSmallest">
+
+    <LinearLayout
+        android:id="@+id/lnrIngredient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginSmall"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/blackMediumTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ingredient" />
+
+        <TextView
+            android:id="@+id/txtIngredient"
+            style="@style/blackMediumTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginMedium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnrMeasure"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginSmall">
+
+        <TextView
+            style="@style/blackMediumTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/measure" />
+
+        <TextView
+            android:id="@+id/txtMeasure"
+            style="@style/blackMediumTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginMedium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnrQuantity"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/blackMediumTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quantity" />
+
+        <TextView
+            android:id="@+id/txtQuantity"
+            style="@style/blackMediumTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginMedium" />
+    </LinearLayout>
+</LinearLayout>

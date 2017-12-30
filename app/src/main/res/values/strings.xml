@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BakingApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="recipes">Recipes</string>
+    <string name="noInternetConnection">No internet connection</string>
+    <string name="networkingError">Network error</string>
+    <string name="recipeImage">Recipe image</string>
+    <string name="recipeName">Recipe name</string>
+    <string name="recipeServing">Serving</string>
+    <string name="ingredient">Ingredient</string>
+    <string name="measure">Measure</string>
+    <string name="quantity">Quantity</string>
+    <string name="clickToSeeTheStep">Click to see the step</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="thisIsTheLastVideo">This is the last video</string>
+    <string name="thisIsTheFirstVideo">This is the first video</string>
+    <string name="NoVideoForThisStep">No video for this step</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="addIngredientToWidget">Add ingredient to widget</string>
+    <string name="noIngredientsAdded">No ingredients added</string>
+    <string name="imgStep">Image step</string>
+</resources>
